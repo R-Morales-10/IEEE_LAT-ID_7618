@@ -1,25 +1,35 @@
 # IEEE_LAT-ID_7618
-Cluster-based algorithm to identify the theft of electrical energy outside electricity metering cabinets
 
-Algoritmo de agrupamiento basado en el Framework presentado en:
-Qi Qi Duan. Testing Framework, DensityClust, Intercambio de archivos central de MATLAB. noviembre de 2015.
+Additional resources and documentation for the manuscript "Modular Advanced Metering Infrastructure to Reduce Electricity Theft and a Cluster-Based Illegal Loads Detection" ID 6318 accepted for IEEE Latin America transactions.
+The main code is in "Matlab" language. Named AMI_M and the data in the file AMI_M2
 
-Los datos se han obtenido de simulaciones de un modelo AMI-Modular real para identificar robos de energía eléctrica.
-A los 60 días se simula un robo de 100W.
+Requirements
 
-Después de ejecutar el programa con el Gaussian Kernel (progrma rincipal), se deben seleccionar los puntos con mayor (delta).
-Si se selecciona el punto de mayor magnitud (delta), se generará un solo clúster. 
-Si se selecciona el punto con el segundo valor máximo (delta), se generarán dos clústeres.
-Si se selecciona el tercer valor más grande (delta), se generarán tres clústeres y así sucesivamente.
+Matlab 2016 or later.
 
 
+Cluster-based algorithm based on the Framework presented in:
+Qi Qi Duan. Testing Framework, DensityClust, MATLAB Central File Exchange. November 2015.
 
-Resultados 
-Gráfico de decisión
+The data has been obtained from simulations of a real AMI-Modular model to identify theft of electrical energy.
+After 60 days, a 100W theft is simulated.
+
+After executing the program with the Gaussian Kernel (main program), the points with the largest (delta) must be selected.
+If the point of greatest magnitude (delta) is selected, a single cluster will be generated.
+If the point with the second maximum value (delta) is selected, two clusters will be generated.
+If the third largest value (delta) is selected, three clusters will be generated, and so on.
+
+
+
+Results
+Decision graph
+
 <img width="886" alt="Gráfico de decisión" src="https://user-images.githubusercontent.com/124928447/217936819-685ead1d-2dc7-40a6-ac7d-5961a7de3fe8.png">
 
-2 Clústeres
+Two Clusters
+
 <img width="882" alt="2 Clústeres" src="https://user-images.githubusercontent.com/124928447/217936898-d498e7dd-2581-468c-85f1-30ba35c890d9.png">
 
-3 Clústeres
+Three Clusters
+
 <img width="907" alt="3 Clústeres" src="https://user-images.githubusercontent.com/124928447/217936945-8d48e456-53d8-41c0-b64d-1e5f02530a79.png">
