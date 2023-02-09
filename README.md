@@ -5,7 +5,7 @@ The main code is in "Matlab" language. Named AMI_M and the data in the file AMI_
 
 Requirements
 
-Matlab 2016 or later.
+Matlab 2016a or later.
 
 
 Cluster-based algorithm based on the Framework presented in:
