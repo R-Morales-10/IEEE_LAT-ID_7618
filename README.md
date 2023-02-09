@@ -3,10 +3,12 @@
 Additional resources and documentation for the manuscript "Modular Advanced Metering Infrastructure to Reduce Electricity Theft and a Cluster-Based Illegal Loads Detection" ID 6318 accepted for IEEE Latin America transactions.
 The main code is in "Matlab" language. Named AMI_M and the data in the file AMI_M2
 
-Requirements
+REQUIREMENTS
 
 Matlab 2016a or later.
 
+
+HOW DOES IT WORK
 
 Cluster-based algorithm based on the Framework presented in:
 Qi Qi Duan. Testing Framework, DensityClust, MATLAB Central File Exchange. November 2015.
@@ -20,8 +22,9 @@ If the point with the second maximum value (delta) is selected, two clusters wil
 If the third largest value (delta) is selected, three clusters will be generated, and so on.
 
 
+RESULTS
 
-Results
+
 Decision graph
 
 <img width="886" alt="Gráfico de decisión" src="https://user-images.githubusercontent.com/124928447/217936819-685ead1d-2dc7-40a6-ac7d-5961a7de3fe8.png">
